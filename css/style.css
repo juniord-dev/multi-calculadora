@@ -1,0 +1,40 @@
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+  width: 950px;
+  padding: 1em;
+  border: 1px solid rgb(64, 77, 82);
+  border-radius: 1em;
+}
+
+#choosen-numbers {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+#number1 {
+  font-weight: bold;
+  font-size: medium;
+  width: 100px;
+  box-sizing: border-box;
+  margin: 0 10px;
+}
+
+#number2 {
+  font-weight: bold;
+  font-size: medium;
+  width: 100px;
+  box-sizing: border-box;
+  margin: 0 10px;
+}
+
+.calculate {
+  font-size: medium;
+  margin: 0 15px;
+}

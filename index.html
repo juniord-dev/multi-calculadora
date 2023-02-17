@@ -12,18 +12,132 @@
 
   <body>
     <header>
-      <h1 id="title">Super Calculadora</h1>
-      <li id="choosen-numbers">
+      <h1>MULTI-CALCULADORA</h1>
+      <div class="choosen-numbers">
         <label for="number1">Primeiro número (A):</label>
-        <input type="number" id="number1" name="number_one" step="0.01" />
+        <input type="number" id="number1" name="number1" step="0.01" />
         <label for="number2">Segundo número (B):</label>
-        <input type="number" id="number2" name="number_two" step="0.01" />
-        <button class="calculate" type="submit">Calcular</button>
-      </li>
+        <input type="number" id="number2" name="number2" step="0.01" />
+        <button onclick="calculate()">Calcular</button>
+      </div>
     </header>
 
-    <main></main>
-
+    <main>
+      <div class="containerMain">
+        <div class="calculoCnt">
+          <p class="rotuloCalculo">Soma</p>
+          <p class="resultado" id="soma"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo">Multiplicação</p>
+          <p class="resultado" id="multiplicacao"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo">Potência de A na base B</p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="soma"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="multiplicacao"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+        <div class="calculoCnt">
+          <p class="rotuloCalculo"></p>
+          <p class="resultado" id="potenciaAEmB"></p>
+        </div>
+      </div>
+    </main>
+    <!-- <table border="1" align="center" width="950px">
+  <tr>
+    <th>Soma</th>
+    <th>Subtração (A-B)</th>
+    <th>Subtração (B-A)</th>
+  </tr>
+  <tr>
+    <td>Resultado</td>
+    <td>Resultado</td>
+    <td>Resultado</td>
+  </tr>
+  <tr>
+    <th>Multiplicação</th>
+    <th>Divisão (A/B)</th>
+    <th>Divisão (B-A)</th>
+  </tr>
+  <tr>
+    <td>Resultado</td>
+    <td>Resultado</td>
+    <td>Resultado</td>
+  </tr>
+  <tr>
+    <th>Potência de A na base B</th>
+    <th>Potência de B na base A</th>
+    <th>Raiz quadrada de A</th>
+  </tr>
+  <tr>
+    <td>Resultado</td>
+    <td>Resultado</td>
+    <td>Resultado</td>
+  </tr>
+  <tr>
+    <th>Raiz quadrada de B</th>
+    <th>Fatorial de A</th>
+    <th>Fatorial de B</th>
+  </tr>
+  <tr>
+    <td>Resultado</td>
+    <td>Resultado</td>
+    <td>Resultado</td>
+  </tr>
+  <tr>
+    <th>Porcentagem de A em relação a B</th>
+    <th>Porcentagem de B em relação a A</th>
+    <th>Média</th>
+  </tr>
+  <tr>
+    <td>Resultado</td>
+    <td>Resultado</td>
+    <td>Resultado</td>
+  </tr>
+</table> -->
     <script defer src="./js/script.js"></script>
   </body>
 </html>

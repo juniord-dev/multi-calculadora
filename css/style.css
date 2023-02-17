@@ -7,7 +7,7 @@ body {
 }
 
 p {
-  margin: 0;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -63,6 +63,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .calculoCnt {
@@ -70,7 +71,8 @@ main {
   border-radius: 10px;
   width: 30%;
   margin-bottom: 1em;
-  height: 80px
+  height: 6.5em;
+  align-items: center;
 }
 
 .rotuloCalculo {
@@ -78,7 +80,7 @@ main {
   font-weight: bold;
   font-size: 1.1em;
   text-align: center;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .resultado {
